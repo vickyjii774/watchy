@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "/home.php"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/index.php"
+      "dest": "/$1"
     }
   ]
 }
